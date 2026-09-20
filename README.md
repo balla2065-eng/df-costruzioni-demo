@@ -57,7 +57,8 @@ python3 -m http.server 8080
 
 ## Pubblicazione
 
-Pubblicato con GitHub Pages da `main` / `/ (root)`.
+Pubblicato con GitHub Pages da `main` / `/ (root)`
+(Settings -> Pages -> Source: *Deploy from a branch*).
 
 Live: <https://balla2065-eng.github.io/df-costruzioni-demo/>
 
