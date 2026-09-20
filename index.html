@@ -138,6 +138,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent-2);outline-o
 .hero-art{position:relative;margin:0 calc(var(--gutter)*-1);}
 @media(min-width:980px){.hero-art{margin:0}}
 .hero-art svg{width:100%;height:auto;display:block}
+@media(max-width:979px){
+  .hero-art{height:198px}
+  .hero-art svg{height:100%}
+}
 @media(min-width:980px){
   .hero-art{border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line-dark);box-shadow:var(--shadow-lg)}
 }
@@ -348,8 +352,8 @@ section{position:relative}
         <a class="btn btn-ghost" href="#servizi">Vedi i servizi</a>
       </div>
       <dl class="trust">
-        <div><dt>Base operativa</dt><dd>Cassano d'Adda</dd></div>
-        <div><dt>Zona</dt><dd>Area di Milano</dd></div>
+        <div><dt>Zona</dt><dd>Cassano d'Adda</dd></div>
+        <div><dt>Copertura</dt><dd>Area di Milano</dd></div>
         <div><dt>Formula</dt><dd>Chiavi in mano</dd></div>
         <div><dt>Contatto</dt><dd>Diretto su WhatsApp</dd></div>
       </dl>
@@ -357,7 +361,7 @@ section{position:relative}
 
     <div class="hero-visual">
       <div class="hero-art">
-        <svg viewBox="0 0 680 560" role="img" aria-label="Illustrazione stilizzata di un ambiente interno ristrutturato: pareti, controsoffitto con luce integrata e pavimento continuo.">
+        <svg viewBox="0 0 680 560" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrazione stilizzata di un ambiente interno ristrutturato: pareti, controsoffitto con luce integrata e pavimento continuo.">
           <defs>
             <linearGradient id="hBg" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0" stop-color="#1c232c"/><stop offset="1" stop-color="#101419"/>
